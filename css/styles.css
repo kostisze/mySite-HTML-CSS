@@ -1,0 +1,126 @@
+/* TAG SELECTORS */
+body{
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+div{
+  background-color: grey;
+}
+
+h1{
+  width: 20%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  padding: 20px 20px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+/* CLASS SELECTORS */
+
+.programmer{
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 200%;
+}
+
+.pro {
+  color: red;
+}
+
+.cloud1{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 100px;
+}
+
+.profilePic{
+  margin-top: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.chilly{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.computer{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.btn:hover {
+   border: solid #337FED;
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #8CB4E1);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #8CB4E1);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #8CB4E1);
+   background-image: -o-linear-gradient(top, #FFFFFF, #8CB4E1);
+   background-image: linear-gradient(to bottom, #FFFFFF, #8CB4E1);
+   -webkit-border-radius: 38px;
+   -moz-border-radius: 38px;
+   border-radius: 38px;
+   text-decoration: none;
+}
+.btn{
+  margin-bottom: 1%;
+}
+
+.bottom-container{
+  background-color: #40514E;
+  padding: 50px 0 20px;
+}
+/* ID SELECTOR */
